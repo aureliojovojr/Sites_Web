@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    font-family: "Saira Stencil", sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    /* border: 1px solid blue; */
+}
+
+.logo h1 {
+    color: #14087e;
+    font-size: 50px;
+
+}
+
+.navegadores {
+    flex: 60%;
+    text-align: right;
+    /* 
+    border: 1px solid red; */
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.navegadores a {
+    color: #14087e;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px 16px;
+}
+
+.navegadores a:hover {
+    color: #fc7b6e;
+    border-top: 4px solid #14087e;
+}
+
+#botao {
+    padding: 10px 25px;
+    background: #14087e;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    background: #fc7b6e;
+    color: #14087e;
+    border: none;
+}
+
+.header {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-flow: row wrap;
+    /* height: 600px; */
+    /* background: gray; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+
+
+}
+
+.headline h2 {
+    font-weight: 900;
+    color: #14087e;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    text-align: left;
+}
+
+.botao {
+    padding: 10px 25px;
+    background: #fc7b6e;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.botao:hover {
+    background: #14087e;
+    color: white;
+
+}
+
+.img_headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid green; */
+    text-align: center;
+    align-items: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 600px;
+    /* border: 1px solid red; */
+    width: 90%;
+}
+
+section h2 {
+    color: #14087e;
+    font-family: "Saira Stencil", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+    margin: 1%;
+    border: 1px solid #fc7b6e;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.texto_oculto {
+    display: none;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover {
+    background: #fc7b6e;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover .card_txt {
+    display: none;
+}
+
+.card:hover .texto_oculto {
+    display: block;
+}
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(135deg, #14087e, #000000, #020b2d);
+    color: white;
+    text-align: center;
+    border-top: 5px solid #fc7b6e;
+}
+
+.rodape {
+    padding: 70px;
+}
+
+.rodape h2 {
+    font-family: "Saira Stencil", sans-serif;
+}
+
+.copy {
+    font-size: 10px;
+}
+
+.whats {
+
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}

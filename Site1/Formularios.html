@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        body {}
+    </style>
+</head>
+
+<body>
+    <h2>Dados Pessoais</h2>
+    <form>
+        <label for="campo_nome">Nome</label>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br><br>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="digite seu email aqui" required>
+
+        <br><br>
+        <label for="password">Senha</label>
+        <input id="password" type="password" placeholder="digite seua senha aqui" required>
+
+
+
+        <h2>Qual e a melhor operadora do pais?</h2>
+
+
+        <input type="radio" id="Vodacom" name="operadora" value="Vodacom">
+        <label for="Vodacom"> Vodacom</label>
+
+        <br><br>
+        <input type="radio" id="Tmcel" name="operadora" value="Tmcel">
+        <label for="Tmcel"> Tmcel</label>
+
+        <br><br>
+        <input type="radio" id="Movitel" name="operadora" value="Movitel">
+        <label for="Movitel"> Movitel</label>
+
+        <h2>Qual delas vc usa </h2>
+
+        <input id="operadora2" type="checkbox" name="operadora2" value="Tmcel">
+        <label for="operadora2"> Tmcel</label>
+        <br><br>
+
+        <input id="operadora1" type="checkbox" name="operadora1" value="Vodacom">
+        <label for="operadora1"> Vodacom</label>
+        <br><br>
+
+        <input id="operadora3" type="checkbox" name="operadora3" value="Movitel">
+        <label for="operadora3"> Movitel</label>
+        <br><br>
+
+        <h2>qual e que voce recomenda?</h2>
+        <select>
+            <option selected disabled value="">Selecione uma operadora</option>
+            <option value="Vodacom">vodacom</option>
+            <option value="Tmcel">Tmcel</option>
+            <option value="Movitel">Movitel</option>
+            <br><br>
+            <br><br>
+            <input type="submit" value="Enviar Formularios">
+            <br><br>
+        </select>
+
+</body>
+
+</html>
