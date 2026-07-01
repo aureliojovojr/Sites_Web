@@ -86,12 +86,12 @@ body {
 
 
 header {
-    background-image: url('/img/high-level-description-a-minimalist-hori_Qg6qShe8UiaaXKXmtXCvCQ_lC-8uyWiRV6E4M6gpb8QzA.jpg');
+    background-image: url(/Site_Nexel/img/services_headline.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
-    padding-top: 0;
+    padding-top: 0px;
 }
 
 .headline {
